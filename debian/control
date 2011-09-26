@@ -1,7 +1,7 @@
 Source: libkipi
 Priority: optional
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-XSBC-Original-Maintainer: Rohan Garg <rohangarg@kubuntu.org>
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>
 Build-Depends: cmake,
                debhelper (>= 7.0.50~),
                kde-sc-dev-latest (>= 4:4.7.1),
@@ -10,8 +10,8 @@ Build-Depends: cmake,
 Standards-Version: 3.9.2
 Section: libs
 Homepage: http://www.kde.org/
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libkipi
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libkipi
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/libkipi.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/libkipi.git
 
 Package: libkipi-dev
 Section: libdevel
