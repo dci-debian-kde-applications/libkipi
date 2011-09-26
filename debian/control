@@ -1,0 +1,67 @@
+Source: libkipi
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Rohan Garg <rohangarg@kubuntu.org>
+Build-Depends: cmake,
+               debhelper (>= 7.0.50~),
+               kde-sc-dev-latest (>= 4:4.7.1),
+               kdelibs5-dev,
+               pkg-kde-tools (>= 0.12)
+Standards-Version: 3.9.2
+Section: libs
+Homepage: http://www.kde.org/
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libkipi
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libkipi
+
+Package: libkipi-dev
+Section: libdevel
+Architecture: any
+Depends: libkipi8 (= ${binary:Version}),
+         pkg-config,
+         ${misc:Depends},
+         ${sameVersionDep:kdelibs5-dev:libkipi8}
+Conflicts: libkipi0-dev, libkipi5-dev, libkipi6-dev, libkipi7-dev
+Description: library for apps that want to use kipi-plugins (development version)
+ Libkipi is a library
+ .
+  o that contains common routines and widget used by kipi-plugins
+  o to ease implementation of the kipi-plugins interface in an application
+    that wants to use kipi-plugins
+ .
+ This pkg contains development files and documentation for libkipi library.
+
+Package: libkipi8
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, libkipi-data (>= ${source:Version})
+Description: library for apps that want to use kipi-plugins (runtime version)
+ Libkipi is a library
+ .
+  o that contains common routines and widget used by kipi-plugins
+  o to ease implementation of the kipi-plugins interface in an application
+    that wants to use kipi-plugins
+
+Package: libkipi-data
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: kdegraphics-libs-data (<< 4:4.6.80),
+          libkdcraw5,
+          libkipi0,
+          libkipi5,
+          libkipi6
+Breaks: kdegraphics-libs-data (<< 4:4.6.80), libkipi0, libkipi5, libkipi6
+Description: data files for kipi libraries
+ This package contains data files needed by libraries built from the kipi
+ library.
+ .
+ This package is part of the KDE kipi library.
+
+Package: libkipi-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Breaks: kdegraphics-dbg (<< 4:4.6.80)
+Replaces: kdegraphics-dbg (<< 4:4.6.80)
+Depends: kde-runtime-dbg, libkipi8 (= ${binary:Version}), ${misc:Depends}
+Description: debugging symbols for the kipi library
+ This package contains debugging files used to investigate problems with
+ libraries included in the KDE kipi module
