@@ -3,10 +3,10 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>
 Build-Depends: cmake,
-               debhelper (>= 7.0.50~),
-               kde-sc-dev-latest (>= 4:4.7.1),
-               kdelibs5-dev (>= 4:4.7),
-               pkg-kde-tools (>= 0.12)
+ debhelper (>= 7.0.50~),
+ kde-sc-dev-latest (>= 4:4.7.1),
+ kdelibs5-dev (>= 4:4.7),
+ pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.2
 Section: libs
 Homepage: http://www.kde.org/
@@ -17,9 +17,9 @@ Package: libkipi-dev
 Section: libdevel
 Architecture: any
 Depends: libkipi8 (= ${binary:Version}),
-         pkg-config,
-         ${misc:Depends},
-         ${sameVersionDep:kdelibs5-dev:libkipi8}
+ pkg-config,
+ ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libkipi8}
 Conflicts: libkipi0-dev, libkipi5-dev, libkipi6-dev, libkipi7-dev
 Description: KDE Image Plugin Interface library -- development files
  Libkipi is a KDE library that provides a common interface for operations
@@ -49,10 +49,10 @@ Package: libkipi-data
 Architecture: all
 Depends: ${misc:Depends}
 Replaces: kdegraphics-libs-data (<< 4:4.6.80),
-          libkdcraw5,
-          libkipi0,
-          libkipi5,
-          libkipi6
+ libkdcraw5,
+ libkipi0,
+ libkipi5,
+ libkipi6
 Breaks: kdegraphics-libs-data (<< 4:4.6.80), libkipi0, libkipi5, libkipi6
 Description: KDE Image Plugin Interface library -- data files
  Libkipi is a KDE library that provides a common interface for operations
