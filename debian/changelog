@@ -1,5 +1,7 @@
 libkipi (4:4.7.2-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Fix typos in descriptions. (Closes: #651200)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Dec 2011 01:30:42 +0100
 
