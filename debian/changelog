@@ -1,4 +1,4 @@
-libkipi (4:4.7.4-0r0) UNRELEASED; urgency=low
+libkipi (4:4.7.4-1) experimental; urgency=low
 
   * New upstream relese.
   
@@ -8,7 +8,7 @@ libkipi (4:4.7.4-0r0) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Dec 2011 01:30:42 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 00:15:04 +0100
 
 libkipi (4:4.7.2-1) experimental; urgency=low
 
