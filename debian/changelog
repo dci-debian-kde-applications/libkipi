@@ -1,4 +1,4 @@
-libkipi (4:4.8.4-0r1) UNRELEASED; urgency=low
+libkipi (4:4.8.4-1) unstable; urgency=low
 
   * New upstream
   * Update symbol files; a couple of new symbols
