@@ -1,3 +1,11 @@
+libkipi (4:4.8.4-0r1) UNRELEASED; urgency=low
+
+  * New upstream
+  * Update symbol files; a couple of new symbols
+  * Adjust installed files
+
+ -- Sune Vuorela <sune@debian.org>  Sun, 17 Jun 2012 21:45:23 +0200
+
 libkipi (4:4.7.4-2) unstable; urgency=low
 
   * Team upload. Upload to unstable.

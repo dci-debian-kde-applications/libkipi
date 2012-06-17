@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 35648 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc viso
+# SymbolsHelper-Confirmed: 4:4.8.4 i386
 libkipi.so.8 libkipi8 #MINVER#
  _ZN4KIPI12ConfigWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
  _ZN4KIPI12ConfigWidget11qt_metacastEPKc@Base 4:4.5.90
@@ -56,11 +56,13 @@ libkipi.so.8 libkipi8 #MINVER#
  _ZN4KIPI15ImageCollectionD2Ev@Base 4:4.5.90
  _ZN4KIPI15ImageCollectionaSERKS0_@Base 4:4.5.90
  _ZN4KIPI15ImageInfoShared11isTimeExactEv@Base 4:4.5.90
+ _ZN4KIPI15ImageInfoShared4nameEv@Base 4:4.8.4
  _ZN4KIPI15ImageInfoShared4pathEv@Base 4:4.5.90
  _ZN4KIPI15ImageInfoShared4sizeEv@Base 4:4.5.90
  _ZN4KIPI15ImageInfoShared4timeENS_8TimeSpecE@Base 4:4.5.90
  _ZN4KIPI15ImageInfoShared5angleEv@Base 4:4.5.90
  _ZN4KIPI15ImageInfoShared6addRefEv@Base 4:4.5.90
+ _ZN4KIPI15ImageInfoShared7setNameERK7QString@Base 4:4.8.4
  _ZN4KIPI15ImageInfoShared7setTimeERK9QDateTimeNS_8TimeSpecE@Base 4:4.5.90
  _ZN4KIPI15ImageInfoShared8setAngleEi@Base 4:4.5.90
  _ZN4KIPI15ImageInfoShared8setTitleERK7QString@Base 4:4.5.90
@@ -68,6 +70,9 @@ libkipi.so.8 libkipi8 #MINVER#
  _ZN4KIPI15ImageInfoShared9removeRefEv@Base 4:4.5.90
  _ZN4KIPI15ImageInfoSharedC1EPNS_9InterfaceERK4KUrl@Base 4:4.5.90
  _ZN4KIPI15ImageInfoSharedC2EPNS_9InterfaceERK4KUrl@Base 4:4.5.90
+ _ZN4KIPI15ImageInfoSharedD0Ev@Base 4:4.8.4
+ _ZN4KIPI15ImageInfoSharedD1Ev@Base 4:4.8.4
+ _ZN4KIPI15ImageInfoSharedD2Ev@Base 4:4.8.4
  _ZN4KIPI21ImageCollectionShared10uploadPathEv@Base 4:4.5.90
  _ZN4KIPI21ImageCollectionShared10uploadRootEv@Base 4:4.5.90
  _ZN4KIPI21ImageCollectionShared11isDirectoryEv@Base 4:4.5.90
@@ -80,6 +85,9 @@ libkipi.so.8 libkipi8 #MINVER#
  _ZN4KIPI21ImageCollectionShared9removeRefEv@Base 4:4.5.90
  _ZN4KIPI21ImageCollectionSharedC1Ev@Base 4:4.5.90
  _ZN4KIPI21ImageCollectionSharedC2Ev@Base 4:4.5.90
+ _ZN4KIPI21ImageCollectionSharedD0Ev@Base 4:4.8.4
+ _ZN4KIPI21ImageCollectionSharedD1Ev@Base 4:4.8.4
+ _ZN4KIPI21ImageCollectionSharedD2Ev@Base 4:4.8.4
  _ZN4KIPI21ImageCollectionSharedeqERS0_@Base 4:4.5.90
  _ZN4KIPI23ImageCollectionSelector11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
  _ZN4KIPI23ImageCollectionSelector11qt_metacastEPKc@Base 4:4.5.90
@@ -105,6 +113,7 @@ libkipi.so.8 libkipi8 #MINVER#
  _ZN4KIPI9ImageInfo13delAttributesERK11QStringList@Base 4:4.5.90
  _ZN4KIPI9ImageInfo14setDescriptionERK7QString@Base 4:4.5.90
  _ZN4KIPI9ImageInfo15clearAttributesEv@Base 4:4.5.90
+ _ZN4KIPI9ImageInfo7setNameERK7QString@Base 4:4.8.4
  _ZN4KIPI9ImageInfo7setTimeERK9QDateTimeNS_8TimeSpecE@Base 4:4.5.90
  _ZN4KIPI9ImageInfo8setAngleEi@Base 4:4.5.90
  _ZN4KIPI9ImageInfo8setTitleERK7QString@Base 4:4.5.90
@@ -173,6 +182,7 @@ libkipi.so.8 libkipi8 #MINVER#
  _ZNK4KIPI9ImageInfo10attributesEv@Base 4:4.5.90
  _ZNK4KIPI9ImageInfo11descriptionEv@Base 4:4.5.90
  _ZNK4KIPI9ImageInfo11isTimeExactEv@Base 4:4.5.90
+ _ZNK4KIPI9ImageInfo4nameEv@Base 4:4.8.4
  _ZNK4KIPI9ImageInfo4pathEv@Base 4:4.5.90
  _ZNK4KIPI9ImageInfo4sizeEv@Base 4:4.5.90
  _ZNK4KIPI9ImageInfo4timeENS_8TimeSpecE@Base 4:4.5.90
