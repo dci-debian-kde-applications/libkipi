@@ -9,6 +9,7 @@ libkipi (4:4.10.2-0r0) UNRELEASED; urgency=low
   * Pass -DKDE4_BUILD_TESTS=false to cmake to keep the tests disabled.
   * Remove NEWS file from docs as it has been removed upstream.
   * Update libkipi-dev.install.
+  * Create libkipi10.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Apr 2013 23:27:45 +0200
 
