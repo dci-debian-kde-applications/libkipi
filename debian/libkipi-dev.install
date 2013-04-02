@@ -1,5 +1,4 @@
-usr/include/libkipi/exportinterface.h
-usr/include/libkipi/extension.h
+usr/include/libkipi/configwidget.h
 usr/include/libkipi/imagecollection.h
 usr/include/libkipi/imagecollectionselector.h
 usr/include/libkipi/imagecollectionshared.h
