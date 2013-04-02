@@ -1,3 +1,9 @@
+libkipi (4:4.10.2-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Apr 2013 23:27:45 +0200
+
 libkipi (4:4.8.4-1) unstable; urgency=low
 
   * New upstream
