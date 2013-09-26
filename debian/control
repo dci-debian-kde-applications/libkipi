@@ -17,10 +17,10 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/libkipi.git
 Package: libkipi-dev
 Section: libdevel
 Architecture: any
-Depends: libkipi10 (= ${binary:Version}),
+Depends: libkipi11 (= ${binary:Version}),
  pkg-config,
  ${misc:Depends},
- ${sameVersionDep:kdelibs5-dev:libkipi10}
+ ${sameVersionDep:kdelibs5-dev:libkipi11}
 Conflicts: libkipi0-dev, libkipi5-dev, libkipi6-dev, libkipi7-dev
 Description: KDE Image Plugin Interface library -- development files
  Libkipi is a KDE library that provides a common interface for operations
@@ -33,7 +33,7 @@ Description: KDE Image Plugin Interface library -- development files
  This package provides the development files for using the kipi library,
  and documentation for it (in the header files).
 
-Package: libkipi10
+Package: libkipi11
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, libkipi-data (>= ${source:Version})
 Description: KDE Image Plugin Interface library
@@ -71,7 +71,7 @@ Architecture: any
 Priority: extra
 Breaks: kdegraphics-dbg (<< 4:4.6.80)
 Replaces: kdegraphics-dbg (<< 4:4.6.80)
-Depends: kde-runtime-dbg, libkipi10 (= ${binary:Version}), ${misc:Depends}
+Depends: kde-runtime-dbg, libkipi11 (= ${binary:Version}), ${misc:Depends}
 Description: KDE Image Plugin Interface library -- debugging symbols
  Libkipi is a KDE library that provides a common interface for operations
  on images such as manipulation, organization, importing from and exporting
