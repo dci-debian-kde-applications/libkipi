@@ -2,6 +2,7 @@ libkipi (4:4.11.1-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
   * Bump lib package soname.
+  * Add symbols file for libkipi11.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:19:40 +0200
 
