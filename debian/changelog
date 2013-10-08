@@ -1,10 +1,10 @@
-libkipi (4:4.11.2-1) UNRELEASED; urgency=low
+libkipi (4:4.11.2-1) experimental; urgency=low
 
   * New upstream release.
   * Bump lib package soname.
   * Add symbols file for libkipi11.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Oct 2013 11:55:28 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Oct 2013 12:14:50 +0200
 
 libkipi (4:4.10.5-1) unstable; urgency=low
 
