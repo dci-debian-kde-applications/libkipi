@@ -64,6 +64,20 @@ Description: KDE Image Plugin Interface library -- data files
  .
  This package contains the data files of the kipi library.
 
+Package: kxmlkipicmd
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KDE Image Plugin Interface - cli tools
+ Libkipi is a KDE library that provides a common interface for operations
+ on images such as manipulation, organization, importing from and exporting
+ to online services (and not only these), batch editing, etc.
+ .
+ These services are used in graphics applications such as gwenview, digiKam,
+ kphotoalbum, and ksnapshot.
+ .
+ This package provides kxmlkipicmd which allows to start kipi-plugins from the
+ command line.
+
 Package: libkipi-dbg
 Section: debug
 Architecture: any
