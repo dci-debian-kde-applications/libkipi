@@ -75,8 +75,8 @@ Description: KDE Image Plugin Interface - cli tools
  These services are used in graphics applications such as gwenview, digiKam,
  kphotoalbum, and ksnapshot.
  .
- This package provides kxmlkipicmd which allows to start kipi-plugins from the
- command line.
+ This package provides kxmlkipicmd which allows one to start kipi-plugins from
+ the command line.
 
 Package: libkipi-dbg
 Section: debug
