@@ -1,7 +1,7 @@
 libkipi (4:4.13.1-1) UNRELEASED; urgency=medium
 
-  * Improve kxmlkipicmd description, thanks to Scott Kitterman.
   * New upstream release.
+  * Improve kxmlkipicmd description, thanks to Scott Kitterman.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 21 May 2014 18:03:03 +0200
 
