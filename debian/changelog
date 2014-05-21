@@ -1,9 +1,9 @@
-libkipi (4:4.13.1-1) UNRELEASED; urgency=medium
+libkipi (4:4.13.1-1) unstable; urgency=medium
 
   * New upstream release.
   * Improve kxmlkipicmd description, thanks to Scott Kitterman.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 21 May 2014 18:03:03 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 May 2014 19:37:24 +0200
 
 libkipi (4:4.12.3-2) unstable; urgency=medium
 
