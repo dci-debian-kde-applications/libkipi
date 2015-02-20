@@ -7,17 +7,11 @@ libkipi (4:14.12.2-1~) UNRELEASED; urgency=medium
 libkipi (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:36:37 -0800
-
-libkipi (4:14.12.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream release
   * Remove kdelibs5-dev depend version as there was not a new release.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 12 Dec 2014 11:44:30 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:36:37 -0800
 
 libkipi (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
@@ -94,13 +88,6 @@ libkipi (4:4.13.1-1ubuntu1) utopic; urgency=medium
   * Merge with debian, no remaining changes
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 22 May 2014 16:59:15 +0200
-
-libkipi (4:4.13.1-1) UNRELEASED; urgency=medium
-
-  * Improve kxmlkipicmd description, thanks to Scott Kitterman.
-  * New upstream release.
-
- -- Maximiliano Curia <maxy@debian.org>  Wed, 07 May 2014 11:05:03 +0200
 
 libkipi (4:4.13.0-0ubuntu1) trusty; urgency=medium
 
@@ -262,7 +249,7 @@ libkipi (4:4.10.80-0ubuntu1) saucy; urgency=low
   * New upstream release
 
   [ Philip Muškovac ]
-  * Replace libkipi10 with libkipi11 
+  * Replace libkipi10 with libkipi11
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -446,7 +433,7 @@ libkipi (4:4.8.2-0ubuntu1) precise; urgency=low
 
 libkipi (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 03 Mar 2012 18:30:09 +0100
 
@@ -483,7 +470,7 @@ libkipi (4:4.7.4-2) unstable; urgency=low
 libkipi (4:4.7.4-1) experimental; urgency=low
 
   * New upstream relese.
-  
+
   [ Pino Toscano ]
   * Fix typos in descriptions. (Closes: #651200)
 
@@ -528,7 +515,7 @@ libkipi (4:4.7.1-0ubuntu1) oneiric; urgency=low
 
 libkipi (4:4.7.0-0ubuntu1) oneiric; urgency=low
 
-  * New upstrem release 
+  * New upstrem release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 22 Jul 2011 23:18:22 +0200
 
@@ -557,4 +544,3 @@ libkipi (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
   * Build-depend on kde-sc-dev-latest.
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 11 Jul 2011 14:25:37 +0200
-
