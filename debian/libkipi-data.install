@@ -6,6 +6,6 @@ usr/share/icons/hicolor/48x48/apps/kipi.png
 usr/share/kde4/apps/kipi/data/kipi-icon.svg
 usr/share/kde4/apps/kipi/data/kipi-logo.svg
 usr/share/kde4/apps/kipi/data/kipi-plugins_logo.png
-usr/share/kde4/servicetypes/kipiplugin.desktop
 usr/share/kde4/apps/kipi/kipiplugin_kxmlhelloworldui.rc
 usr/share/kde4/services/kipiplugin_kxmlhelloworld.desktop
+usr/share/kde4/servicetypes/kipiplugin.desktop

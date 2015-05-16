@@ -34,7 +34,9 @@ Description: KDE Image Plugin Interface library -- development files
 
 Package: libkipi11
 Architecture: any
-Depends: libkipi-data (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: libkipi-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: KDE Image Plugin Interface library
  Libkipi is a KDE library that provides a common interface for operations
  on images such as manipulation, organization, importing from and exporting
