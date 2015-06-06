@@ -1,9 +1,13 @@
-libkipi (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
+libkipi (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
   * wrap-and-sort 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 May 2015 06:36:52 -0700
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 02:18:32 +0200
 
 libkipi (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
