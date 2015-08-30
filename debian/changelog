@@ -1,9 +1,9 @@
-libkipi (4:15.04.2-1~) UNRELEASED; urgency=medium
+libkipi (4:15.04.2-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.04.2).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:11:12 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 23:40:45 +0200
 
 libkipi (4:14.12.2-1) experimental; urgency=medium
 
