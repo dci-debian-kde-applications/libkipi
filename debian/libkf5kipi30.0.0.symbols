@@ -1,17 +1,13 @@
-# SymbolsHelper-Confirmed: 14.11.97 amd64
+# SymbolsHelper-Confirmed: 15.12.0 amd64
 libKF5Kipi.so.30.0.0 libkf5kipi30.0.0 #MINVER#
  _ZN4KIPI12ConfigWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.5.90
  _ZN4KIPI12ConfigWidget11qt_metacastEPKc@Base 4.5.90
- _ZN4KIPI12ConfigWidget12slotCheckAllEv@Base 4.8.80
- _ZN4KIPI12ConfigWidget13slotClearListEv@Base 4.9.80
- _ZN4KIPI12ConfigWidget13slotSetFilterERK7QStringN2Qt15CaseSensitivityE@Base 4.9.80
- _ZN4KIPI12ConfigWidget14slotProcessUrlERK7QString@Base 4.9.80
- _ZN4KIPI12ConfigWidget15setFilterWidgetEP7QWidget@Base 4.9.80
- _ZN4KIPI12ConfigWidget15slotItemClickedEv@Base 4.9.80
  _ZN4KIPI12ConfigWidget16staticMetaObjectE@Base 4.5.90
- _ZN4KIPI12ConfigWidget18signalSearchResultEb@Base 4.9.80
+ _ZN4KIPI12ConfigWidget18signalSearchResultEi@Base 15.12.0
  _ZN4KIPI12ConfigWidget5applyEv@Base 4.5.90
- _ZN4KIPI12ConfigWidget7Private10updateInfoEv@Base 4.9.80
+ _ZN4KIPI12ConfigWidget8clearAllEv@Base 15.12.0
+ _ZN4KIPI12ConfigWidget9selectAllEv@Base 15.12.0
+ _ZN4KIPI12ConfigWidget9setFilterERK7QStringN2Qt15CaseSensitivityE@Base 15.12.0
  _ZN4KIPI12ConfigWidgetC1EP7QWidget@Base 4.5.90
  _ZN4KIPI12ConfigWidgetC2EP7QWidget@Base 4.5.90
  _ZN4KIPI12ConfigWidgetD0Ev@Base 4.5.90
@@ -27,8 +23,8 @@ libKF5Kipi.so.30.0.0 libkf5kipi30.0.0 #MINVER#
  _ZN4KIPI12PluginLoader24setDisabledPluginActionsERK11QStringList@Base 4.9.80
  _ZN4KIPI12PluginLoader4Info13setShouldLoadEb@Base 4.5.90
  _ZN4KIPI12PluginLoader4Info6reloadEv@Base 4.5.90
- _ZN4KIPI12PluginLoader4InfoC1EP13KXmlGuiWindowRK10KSharedPtrI8KServiceEb@Base 4.9.80
- _ZN4KIPI12PluginLoader4InfoC2EP13KXmlGuiWindowRK10KSharedPtrI8KServiceEb@Base 4.9.80
+ _ZN4KIPI12PluginLoader4InfoC1EP13KXmlGuiWindowRK28QExplicitlySharedDataPointerI8KServiceEb@Base 15.12.0
+ _ZN4KIPI12PluginLoader4InfoC2EP13KXmlGuiWindowRK28QExplicitlySharedDataPointerI8KServiceEb@Base 15.12.0
  _ZN4KIPI12PluginLoader4InfoD1Ev@Base 4.5.90
  _ZN4KIPI12PluginLoader4InfoD2Ev@Base 4.5.90
  _ZN4KIPI12PluginLoader4initEv@Base 4.9.80
@@ -53,24 +49,24 @@ libKF5Kipi.so.30.0.0 libkf5kipi30.0.0 #MINVER#
  _ZN4KIPI12UploadWidgetD1Ev@Base 4.5.90
  _ZN4KIPI12UploadWidgetD2Ev@Base 4.5.90
  _ZN4KIPI13EditHintScope13changeAbortedEv@Base 4.10.80
- _ZN4KIPI13EditHintScopeC1EPNS_9InterfaceERK4KUrl6QFlagsINS_8EditHintEE@Base 4.10.80
- _ZN4KIPI13EditHintScopeC2EPNS_9InterfaceERK4KUrl6QFlagsINS_8EditHintEE@Base 4.10.80
+ _ZN4KIPI13EditHintScopeC1EPNS_9InterfaceERK4QUrl6QFlagsINS_8EditHintEE@Base 15.12.0
+ _ZN4KIPI13EditHintScopeC2EPNS_9InterfaceERK4QUrl6QFlagsINS_8EditHintEE@Base 15.12.0
  _ZN4KIPI13EditHintScopeD1Ev@Base 4.10.80
  _ZN4KIPI13EditHintScopeD2Ev@Base 4.10.80
  _ZN4KIPI14FileReadLocker6relockEv@Base 4.8.80
  _ZN4KIPI14FileReadLocker6unlockEv@Base 4.8.80
  _ZN4KIPI14FileReadLockerC1EPNS_15ImageInfoSharedE@Base 4.8.80
- _ZN4KIPI14FileReadLockerC1EPNS_9InterfaceERK4KUrl@Base 4.8.80
+ _ZN4KIPI14FileReadLockerC1EPNS_9InterfaceERK4QUrl@Base 15.12.0
  _ZN4KIPI14FileReadLockerC2EPNS_15ImageInfoSharedE@Base 4.8.80
- _ZN4KIPI14FileReadLockerC2EPNS_9InterfaceERK4KUrl@Base 4.8.80
+ _ZN4KIPI14FileReadLockerC2EPNS_9InterfaceERK4QUrl@Base 15.12.0
  _ZN4KIPI14FileReadLockerD1Ev@Base 4.8.80
  _ZN4KIPI14FileReadLockerD2Ev@Base 4.8.80
  _ZN4KIPI15FileWriteLocker6relockEv@Base 4.8.80
  _ZN4KIPI15FileWriteLocker6unlockEv@Base 4.8.80
  _ZN4KIPI15FileWriteLockerC1EPNS_15ImageInfoSharedE@Base 4.8.80
- _ZN4KIPI15FileWriteLockerC1EPNS_9InterfaceERK4KUrl@Base 4.8.80
+ _ZN4KIPI15FileWriteLockerC1EPNS_9InterfaceERK4QUrl@Base 15.12.0
  _ZN4KIPI15FileWriteLockerC2EPNS_15ImageInfoSharedE@Base 4.8.80
- _ZN4KIPI15FileWriteLockerC2EPNS_9InterfaceERK4KUrl@Base 4.8.80
+ _ZN4KIPI15FileWriteLockerC2EPNS_9InterfaceERK4QUrl@Base 15.12.0
  _ZN4KIPI15FileWriteLockerD1Ev@Base 4.8.80
  _ZN4KIPI15FileWriteLockerD2Ev@Base 4.8.80
  _ZN4KIPI15ImageCollectionC1EPNS_21ImageCollectionSharedE@Base 4.5.90
@@ -86,23 +82,23 @@ libKF5Kipi.so.30.0.0 libkf5kipi30.0.0 #MINVER#
  _ZN4KIPI15ImageInfoShared6addRefEv@Base 4.5.90
  _ZN4KIPI15ImageInfoShared9cloneDataEPS0_@Base 4.5.90
  _ZN4KIPI15ImageInfoShared9removeRefEv@Base 4.5.90
- _ZN4KIPI15ImageInfoSharedC1EPNS_9InterfaceERK4KUrl@Base 4.5.90
+ _ZN4KIPI15ImageInfoSharedC1EPNS_9InterfaceERK4QUrl@Base 15.12.0
  _ZN4KIPI15ImageInfoSharedC1Ev@Base 4.8.80
- _ZN4KIPI15ImageInfoSharedC2EPNS_9InterfaceERK4KUrl@Base 4.5.90
+ _ZN4KIPI15ImageInfoSharedC2EPNS_9InterfaceERK4QUrl@Base 15.12.0
  _ZN4KIPI15ImageInfoSharedC2Ev@Base 4.8.80
  _ZN4KIPI15ImageInfoSharedD0Ev@Base 4.7.90
  _ZN4KIPI15ImageInfoSharedD1Ev@Base 4.7.90
  _ZN4KIPI15ImageInfoSharedD2Ev@Base 4.7.90
- _ZN4KIPI21ImageCollectionShared10uploadPathEv@Base 4.5.90
- _ZN4KIPI21ImageCollectionShared10uploadRootEv@Base 4.5.90
  _ZN4KIPI21ImageCollectionShared11isDirectoryEv@Base 4.5.90
+ _ZN4KIPI21ImageCollectionShared13uploadRootUrlEv@Base 15.12.0
  _ZN4KIPI21ImageCollectionShared14uploadRootNameEv@Base 4.5.90
+ _ZN4KIPI21ImageCollectionShared3urlEv@Base 15.12.0
  _ZN4KIPI21ImageCollectionShared4dateEv@Base 4.5.90
- _ZN4KIPI21ImageCollectionShared4pathEv@Base 4.5.90
  _ZN4KIPI21ImageCollectionShared6addRefEv@Base 4.5.90
  _ZN4KIPI21ImageCollectionShared7commentEv@Base 4.5.90
  _ZN4KIPI21ImageCollectionShared8categoryEv@Base 4.5.90
  _ZN4KIPI21ImageCollectionShared9removeRefEv@Base 4.5.90
+ _ZN4KIPI21ImageCollectionShared9uploadUrlEv@Base 15.12.0
  _ZN4KIPI21ImageCollectionSharedC1Ev@Base 4.5.90
  _ZN4KIPI21ImageCollectionSharedC2Ev@Base 4.5.90
  _ZN4KIPI21ImageCollectionSharedD0Ev@Base 4.7.90
@@ -127,19 +123,14 @@ libKF5Kipi.so.30.0.0 libkf5kipi30.0.0 #MINVER#
  _ZN4KIPI6Plugin16staticMetaObjectE@Base 4.5.90
  _ZN4KIPI6Plugin18setDefaultCategoryENS_8CategoryE@Base 4.9.80
  _ZN4KIPI6Plugin5setupEP7QWidget@Base 4.5.90
- _ZN4KIPI6Plugin7Private9XMLParser10buildPathsERK11QDomElementRK12QDomNodeListR5QHashI7QString5QListIS3_EE@Base 4.9.80
- _ZN4KIPI6Plugin7Private9XMLParser10buildPathsERK11QDomElementRK12QDomNodeListR5QHashI7QString5QListIS3_EERSC_@Base 4.9.80
- _ZN4KIPI6Plugin7Private9XMLParser11makeElementER12QDomDocumentRK11QDomElement@Base 4.9.80
- _ZN4KIPI6Plugin7Private9XMLParser14findByNameAttrERK12QDomNodeListRK11QDomElement@Base 4.9.80
- _ZN4KIPI6Plugin7Private9XMLParser21removeDisabledActionsER11QDomElement@Base 4.9.80
  _ZN4KIPI6Plugin7rebuildEv@Base 4.9.80
  _ZN4KIPI6Plugin8setupXMLEv@Base 4.9.80
- _ZN4KIPI6Plugin9addActionEP7KAction@Base 4.5.90
- _ZN4KIPI6Plugin9addActionEP7KActionNS_8CategoryE@Base 4.9.80
- _ZN4KIPI6Plugin9addActionERK7QStringP7KAction@Base 4.9.80
- _ZN4KIPI6Plugin9addActionERK7QStringP7KActionNS_8CategoryE@Base 4.9.80
- _ZN4KIPI6PluginC1ERK14KComponentDataP7QObjectPKc@Base 4.5.90
- _ZN4KIPI6PluginC2ERK14KComponentDataP7QObjectPKc@Base 4.5.90
+ _ZN4KIPI6Plugin9addActionEP7QAction@Base 15.12.0
+ _ZN4KIPI6Plugin9addActionEP7QActionNS_8CategoryE@Base 15.12.0
+ _ZN4KIPI6Plugin9addActionERK7QStringP7QAction@Base 15.12.0
+ _ZN4KIPI6Plugin9addActionERK7QStringP7QActionNS_8CategoryE@Base 15.12.0
+ _ZN4KIPI6PluginC1EP7QObjectPKc@Base 15.12.0
+ _ZN4KIPI6PluginC2EP7QObjectPKc@Base 15.12.0
  _ZN4KIPI6PluginD0Ev@Base 4.5.90
  _ZN4KIPI6PluginD1Ev@Base 4.5.90
  _ZN4KIPI6PluginD2Ev@Base 4.5.90
@@ -156,40 +147,47 @@ libKF5Kipi.so.30.0.0 libkf5kipi30.0.0 #MINVER#
  _ZN4KIPI9ImageInfoD1Ev@Base 4.5.90
  _ZN4KIPI9ImageInfoD2Ev@Base 4.5.90
  _ZN4KIPI9ImageInfoaSERKS0_@Base 4.8.80
- _ZN4KIPI9Interface10thumbnailsERKN4KUrl4ListEi@Base 4.5.90
- _ZN4KIPI9Interface11aboutToEditERK4KUrl6QFlagsINS_8EditHintEE@Base 4.10.80
+ _ZN4KIPI9Interface10gotPreviewERK4QUrlRK6QImage@Base 15.12.0
+ _ZN4KIPI9Interface10thumbnailsERK5QListI4QUrlEi@Base 15.12.0
+ _ZN4KIPI9Interface11aboutToEditERK4QUrl6QFlagsINS_8EditHintEE@Base 15.12.0
  _ZN4KIPI9Interface11hostSettingERK7QString@Base 4.5.90
  _ZN4KIPI9Interface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.5.90
  _ZN4KIPI9Interface11qt_metacastEPKc@Base 4.5.90
  _ZN4KIPI9Interface12currentAlbumEv@Base 4.5.90
- _ZN4KIPI9Interface12gotThumbnailERK4KUrlRK7QPixmap@Base 4.5.90
- _ZN4KIPI9Interface13gotKDEPreviewERK9KFileItemRK7QPixmap@Base 4.5.90
- _ZN4KIPI9Interface13refreshImagesERKN4KUrl4ListE@Base 4.5.90
- _ZN4KIPI9Interface15editingFinishedERK4KUrl6QFlagsINS_8EditHintEE@Base 4.10.80
- _ZN4KIPI9Interface16clearReservationERK4KUrlP7QObject@Base 4.8.80
+ _ZN4KIPI9Interface12gotThumbnailERK4QUrlRK7QPixmap@Base 15.12.0
+ _ZN4KIPI9Interface13refreshImagesERK5QListI4QUrlE@Base 15.12.0
+ _ZN4KIPI9Interface15editingFinishedERK4QUrl6QFlagsINS_8EditHintEE@Base 15.12.0
+ _ZN4KIPI9Interface16clearReservationERK4QUrlP7QObject@Base 15.12.0
  _ZN4KIPI9Interface16currentSelectionEv@Base 4.5.90
- _ZN4KIPI9Interface16failedKDEPreviewERK9KFileItem@Base 4.5.90
  _ZN4KIPI9Interface16progressCanceledERK7QString@Base 4.8.80
  _ZN4KIPI9Interface16selectionChangedEb@Base 4.5.90
  _ZN4KIPI9Interface16staticMetaObjectE@Base 4.5.90
  _ZN4KIPI9Interface17progressCompletedERK7QString@Base 4.8.80
- _ZN4KIPI9Interface17reservedForActionERK4KUrlRK7QString@Base 4.8.80
- _ZN4KIPI9Interface18reservationClearedERK4KUrl@Base 4.8.80
+ _ZN4KIPI9Interface17reservedForActionERK4QUrlRK7QString@Base 15.12.0
+ _ZN4KIPI9Interface18reservationClearedERK4QUrl@Base 15.12.0
  _ZN4KIPI9Interface19currentAlbumChangedEb@Base 4.5.90
  _ZN4KIPI9Interface20progressValueChangedERK7QStringf@Base 4.8.80
  _ZN4KIPI9Interface21progressStatusChangedERK7QStringS3_@Base 4.8.80
+ _ZN4KIPI9Interface23supportedImageMimeTypesEb@Base 15.12.0
  _ZN4KIPI9Interface24progressThumbnailChangedERK7QStringRK7QPixmap@Base 4.8.80
+ _ZN4KIPI9Interface7previewERK4QUrli@Base 15.12.0
+ _ZN4KIPI9Interface7previewERK4QUrlii@Base 15.12.0
  _ZN4KIPI9Interface7versionEv@Base 4.5.90
- _ZN4KIPI9Interface8addImageERK4KUrlR7QString@Base 4.5.90
- _ZN4KIPI9Interface8delImageERK4KUrl@Base 4.5.90
+ _ZN4KIPI9Interface8addImageERK4QUrlR7QString@Base 15.12.0
+ _ZN4KIPI9Interface8delImageERK4QUrl@Base 15.12.0
  _ZN4KIPI9Interface9allAlbumsEv@Base 4.5.90
- _ZN4KIPI9Interface9thumbnailERK4KUrli@Base 4.5.90
- _ZN4KIPI9InterfaceC1EP7QObjectPKc@Base 4.5.90
- _ZN4KIPI9InterfaceC2EP7QObjectPKc@Base 4.5.90
+ _ZN4KIPI9Interface9saveImageERK4QUrlRK7QStringRK10QByteArrayjjbbPb@Base 15.12.0
+ _ZN4KIPI9Interface9thumbnailERK4QUrli@Base 15.12.0
+ _ZN4KIPI9InterfaceC1EP7QObjectRK7QString@Base 15.12.0
+ _ZN4KIPI9InterfaceC2EP7QObjectRK7QString@Base 15.12.0
  _ZN4KIPI9InterfaceD0Ev@Base 4.5.90
  _ZN4KIPI9InterfaceD1Ev@Base 4.5.90
  _ZN4KIPI9InterfaceD2Ev@Base 4.5.90
  _ZNK4KIPI12ConfigWidget10metaObjectEv@Base 4.5.90
+ _ZNK4KIPI12ConfigWidget5countEv@Base 15.12.0
+ _ZNK4KIPI12ConfigWidget6filterEv@Base 15.12.0
+ _ZNK4KIPI12ConfigWidget7activedEv@Base 15.12.0
+ _ZNK4KIPI12ConfigWidget7visibleEv@Base 15.12.0
  _ZNK4KIPI12PluginLoader10metaObjectEv@Base 4.5.90
  _ZNK4KIPI12PluginLoader12configWidgetEP7QWidget@Base 4.5.90
  _ZNK4KIPI12PluginLoader18kipiPluginsVersionEv@Base 4.9.80
@@ -209,17 +207,17 @@ libKF5Kipi.so.30.0.0 libkf5kipi30.0.0 #MINVER#
  _ZNK4KIPI12UploadWidget23selectedImageCollectionEv@Base 4.5.90
  _ZNK4KIPI14FileReadLocker17fileReadWriteLockEv@Base 4.8.80
  _ZNK4KIPI15FileWriteLocker17fileReadWriteLockEv@Base 4.8.80
- _ZNK4KIPI15ImageCollection10uploadPathEv@Base 4.5.90
- _ZNK4KIPI15ImageCollection10uploadRootEv@Base 4.5.90
  _ZNK4KIPI15ImageCollection11isDirectoryEv@Base 4.5.90
+ _ZNK4KIPI15ImageCollection13uploadRootUrlEv@Base 15.12.0
  _ZNK4KIPI15ImageCollection14uploadRootNameEv@Base 4.5.90
+ _ZNK4KIPI15ImageCollection3urlEv@Base 15.12.0
  _ZNK4KIPI15ImageCollection4dateEv@Base 4.5.90
  _ZNK4KIPI15ImageCollection4nameEv@Base 4.5.90
- _ZNK4KIPI15ImageCollection4pathEv@Base 4.5.90
  _ZNK4KIPI15ImageCollection6imagesEv@Base 4.5.90
  _ZNK4KIPI15ImageCollection7commentEv@Base 4.5.90
  _ZNK4KIPI15ImageCollection7isValidEv@Base 4.5.90
  _ZNK4KIPI15ImageCollection8categoryEv@Base 4.5.90
+ _ZNK4KIPI15ImageCollection9uploadUrlEv@Base 15.12.0
  _ZNK4KIPI15ImageCollectioneqERKS0_@Base 4.5.90
  _ZNK4KIPI15ImageInfoShared14itemIsReservedEP7QString@Base 4.8.80
  _ZNK4KIPI15ImageInfoShared16reserveForActionEP7QObjectRK7QString@Base 4.8.80
@@ -231,7 +229,7 @@ libKF5Kipi.so.30.0.0 libkf5kipi30.0.0 #MINVER#
  _ZNK4KIPI6Plugin10uiBaseNameEv@Base 4.9.80
  _ZNK4KIPI6Plugin15defaultCategoryEv@Base 4.9.80
  _ZNK4KIPI6Plugin7actionsEP7QWidget@Base 4.9.80
- _ZNK4KIPI6Plugin8categoryEP7KAction@Base 4.9.80
+ _ZNK4KIPI6Plugin8categoryEP7QAction@Base 15.12.0
  _ZNK4KIPI6Plugin9interfaceEv@Base 4.9.80
  _ZNK4KIPI9ImageInfo10attributesEv@Base 4.5.90
  _ZNK4KIPI9ImageInfo3urlEv@Base 4.8.80
@@ -239,10 +237,12 @@ libKF5Kipi.so.30.0.0 libkf5kipi30.0.0 #MINVER#
  _ZNK4KIPI9Interface10hasFeatureENS_8FeaturesE@Base 4.5.90
  _ZNK4KIPI9Interface10hasFeatureERK7QString@Base 4.5.90
  _ZNK4KIPI9Interface10metaObjectEv@Base 4.5.90
- _ZNK4KIPI9Interface14itemIsReservedERK4KUrlP7QString@Base 4.8.80
- _ZNK4KIPI9Interface16reserveForActionERK4KUrlP7QObjectRK7QString@Base 4.8.80
+ _ZNK4KIPI9Interface14itemIsReservedERK4QUrlP7QString@Base 15.12.0
+ _ZNK4KIPI9Interface16reserveForActionERK4QUrlP7QObjectRK7QString@Base 15.12.0
  _ZNK4KIPI9Interface17progressScheduledERK7QStringbb@Base 4.8.80
- _ZNK4KIPI9Interface19createReadWriteLockERK4KUrl@Base 4.8.80
+ _ZNK4KIPI9Interface18createRawProcessorEv@Base 15.12.0
+ _ZNK4KIPI9Interface19createReadWriteLockERK4QUrl@Base 15.12.0
+ _ZNK4KIPI9Interface23createMetadataProcessorEv@Base 15.12.0
  _ZNK4KIPI9Interface8featuresEv@Base 4.5.90
  _ZTIN4KIPI12ConfigWidgetE@Base 4.5.90
  _ZTIN4KIPI12PluginLoaderE@Base 4.5.90
