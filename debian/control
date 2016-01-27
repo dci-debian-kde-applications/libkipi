@@ -23,8 +23,7 @@ Section: libdevel
 Architecture: any
 Depends: libkf5kipi30.0.0 (= ${binary:Version}),
          pkg-config,
-         ${misc:Depends},
-         ${sameVersionDep:kdelibs5-dev:libkipi11}
+         ${misc:Depends}
 Conflicts: libkipi0-dev, libkipi5-dev, libkipi6-dev, libkipi7-dev
 Description: KDE Image Plugin Interface library -- development files
  Libkipi is a KDE library that provides a common interface for operations
