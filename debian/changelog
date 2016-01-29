@@ -1,8 +1,9 @@
-libkf5kipi (15.12.0-1~) UNRELEASED; urgency=medium
+libkf5kipi (15.12.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.12.0).
+  * New upstream release (15.12.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Dec 2015 16:12:19 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 29 Jan 2016 11:12:46 +0100
 
 libkipi (4:15.08.3-1) unstable; urgency=medium
 
