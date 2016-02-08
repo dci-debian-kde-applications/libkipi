@@ -1,26 +1,29 @@
-Source: libkipi
+Source: libkf5kipi
+Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules,
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
-               pkg-kde-tools (>= 0.12)
+               extra-cmake-modules (>= 1.1.0~),
+               libkf5config-dev (>= 5.1.0~),
+               libkf5i18n-dev (>= 5.1.0~),
+               libkf5kexiv2-dev (>= 5.0.0~),
+               libkf5service-dev (>= 5.1.0~),
+               libkf5xmlgui-dev (>= 5.1.0~),
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.2.0~)
 Standards-Version: 3.9.6
-Section: libs
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/libkipi.git/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/libkipi.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/libkipi.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/libkipi.git
 
-Package: libkipi-dev
+Package: libkf5kipi-dev
 Section: libdevel
 Architecture: any
-Depends: libkipi11 (= ${binary:Version}),
+Depends: libkf5kipi30.0.0 (= ${binary:Version}),
          pkg-config,
-         ${misc:Depends},
-         ${sameVersionDep:kdelibs5-dev:libkipi11}
+         ${misc:Depends}
 Conflicts: libkipi0-dev, libkipi5-dev, libkipi6-dev, libkipi7-dev
 Description: KDE Image Plugin Interface library -- development files
  Libkipi is a KDE library that provides a common interface for operations
@@ -33,9 +36,9 @@ Description: KDE Image Plugin Interface library -- development files
  This package provides the development files for using the kipi library,
  and documentation for it (in the header files).
 
-Package: libkipi11
+Package: libkf5kipi30.0.0
 Architecture: any
-Depends: libkipi-data (>= ${source:Version}),
+Depends: libkf5kipi-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE Image Plugin Interface library
@@ -48,15 +51,16 @@ Description: KDE Image Plugin Interface library
  .
  This package provides the kipi library.
 
-Package: libkipi-data
+Package: libkf5kipi-data
 Architecture: all
 Depends: ${misc:Depends}
 Replaces: kdegraphics-libs-data (<< 4:4.6.80),
           libkdcraw5,
           libkipi0,
           libkipi5,
-          libkipi6
-Breaks: kdegraphics-libs-data (<< 4:4.6.80), libkipi0, libkipi5, libkipi6
+          libkipi6,
+          libkipi-data
+Breaks: kdegraphics-libs-data (<< 4:4.6.80), libkipi0, libkipi5, libkipi6, libkipi-data
 Description: KDE Image Plugin Interface library -- data files
  Libkipi is a KDE library that provides a common interface for operations
  on images such as manipulation, organization, importing from and exporting
@@ -67,10 +71,12 @@ Description: KDE Image Plugin Interface library -- data files
  .
  This package contains the data files of the kipi library.
 
-Package: kxmlkipicmd
+Package: libkf5kipi-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: KDE Image Plugin Interface - cli tools
+Breaks: kxmlkipicmd
+Replaces: kxmlkipicmd
+Description: KDE Image Plugin Interface - runtime tools
  Libkipi is a KDE library that provides a common interface for operations
  on images such as manipulation, organization, importing from and exporting
  to online services (and not only these), batch editing, etc.
@@ -80,18 +86,3 @@ Description: KDE Image Plugin Interface - cli tools
  .
  This package provides kxmlkipicmd which allows one to start kipi-plugins from
  the command line.
-
-Package: libkipi-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Breaks: kdegraphics-dbg (<< 4:4.6.80)
-Replaces: kdegraphics-dbg (<< 4:4.6.80)
-Depends: kde-runtime-dbg, libkipi11 (= ${binary:Version}), ${misc:Depends}
-Description: KDE Image Plugin Interface library -- debugging symbols
- Libkipi is a KDE library that provides a common interface for operations
- on images such as manipulation, organization, importing from and exporting
- to online services (and not only these), batch editing, etc.
- .
- This package contains the debugging files used to investigate problems with
- the kipi library.
