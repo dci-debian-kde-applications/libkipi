@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.12.0 amd64
+# SymbolsHelper-Confirmed: 15.12.1 amd64 i386
 libKF5Kipi.so.30.0.0 libkf5kipi30.0.0 #MINVER#
  _ZN4KIPI12ConfigWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.5.90
  _ZN4KIPI12ConfigWidget11qt_metacastEPKc@Base 4.5.90
