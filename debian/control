@@ -8,6 +8,7 @@ Build-Depends: cmake (>= 2.8.12~),
                extra-cmake-modules (>= 1.1.0~),
                libkf5config-dev (>= 5.1.0~),
                libkf5i18n-dev (>= 5.1.0~),
+               libkf5kdcraw-dev (>= 15.12.0),
                libkf5kexiv2-dev (>= 5.0.0~),
                libkf5service-dev (>= 5.1.0~),
                libkf5xmlgui-dev (>= 5.1.0~),
@@ -21,9 +22,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/libkipi.git
 Package: libkf5kipi-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5kipi30.0.0 (= ${binary:Version}),
-         pkg-config,
-         ${misc:Depends}
+Depends: libkf5kipi30.0.0 (= ${binary:Version}), pkg-config, ${misc:Depends}
 Conflicts: libkipi0-dev, libkipi5-dev, libkipi6-dev, libkipi7-dev
 Description: KDE Image Plugin Interface library -- development files
  Libkipi is a KDE library that provides a common interface for operations
@@ -56,11 +55,15 @@ Architecture: all
 Depends: ${misc:Depends}
 Replaces: kdegraphics-libs-data (<< 4:4.6.80),
           libkdcraw5,
+          libkipi-data,
           libkipi0,
           libkipi5,
-          libkipi6,
-          libkipi-data
-Breaks: kdegraphics-libs-data (<< 4:4.6.80), libkipi0, libkipi5, libkipi6, libkipi-data
+          libkipi6
+Breaks: kdegraphics-libs-data (<< 4:4.6.80),
+        libkipi-data,
+        libkipi0,
+        libkipi5,
+        libkipi6
 Description: KDE Image Plugin Interface library -- data files
  Libkipi is a KDE library that provides a common interface for operations
  on images such as manipulation, organization, importing from and exporting
