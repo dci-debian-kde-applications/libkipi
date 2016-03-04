@@ -9,7 +9,7 @@ libkf5kipi (15.12.1-1ubuntu1) UNRELEASED; urgency=medium
   * Add new build dep. 
 
   [ Clive Johnston ]
-  * Adding libjpeg-dev as build dep
+  * Adding libjpeg-dev & libpng-dev as build deps 
 
  -- Clive Johnston <clivejo@aol.com>  Mon, 08 Feb 2016 20:50:19 +0000
 
