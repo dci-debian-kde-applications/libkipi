@@ -55,12 +55,12 @@ Architecture: all
 Depends: ${misc:Depends}
 Replaces: kdegraphics-libs-data (<< 4:4.6.80),
           libkdcraw5,
-          libkipi-data,
+          libkipi-data (<< 4:15.08.2-0ubuntu2~),
           libkipi0,
           libkipi5,
           libkipi6
 Breaks: kdegraphics-libs-data (<< 4:4.6.80),
-        libkipi-data,
+        libkipi-data (<< 4:15.08.2-0ubuntu2~),
         libkipi0,
         libkipi5,
         libkipi6

@@ -6,6 +6,13 @@ libkf5kipi (15.12.3-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 16 Mar 2016 20:39:25 -0700
 
+libkf5kipi (15.12.1-1ubuntu2) xenial; urgency=medium
+
+  * Only break libkipi-data << 4:15.08.2-0ubuntu2~ now that the png files were
+    removed to keep the packages coninstallable
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 21 Mar 2016 15:20:55 +0100
+
 libkf5kipi (15.12.1-1ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
