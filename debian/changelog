@@ -1,8 +1,13 @@
 libkf5kipi (15.12.3-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream bugfix release
   * refresh symbols. 
   * New upstream bugfix release
+
+  [ Philip Muškovac ]
+  * Bump the breaks/replaces on libkipi to 4:15.08.3-0ubuntu1~ to support
+    ppa upgrades
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 16 Mar 2016 20:39:25 -0700
 
