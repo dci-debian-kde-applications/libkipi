@@ -1,12 +1,22 @@
-libkf5kipi (16.04.0-1~1.gbpd0130a) UNRELEASED; urgency=medium
+libkf5kipi (16.04.0-1~2.gbpfbc972) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @fbc97296ff15fc43b2a693cc02c179ad38f25323 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @d0130a17c18e7976964d6c37f830807fa7e5af57 **
 
   * Bump Standards-Version to 3.9.8
   * Update symbols files from buildds logs (15.12.1-1).
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 06:15:11 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Bump soversion, move plugin to the bin package
+  * Update install files
+  * Update symbols file
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 17:27:21 +0200
 
 libkf5kipi (15.12.1-1) experimental; urgency=medium
 
