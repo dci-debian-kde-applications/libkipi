@@ -1,2 +1,3 @@
 usr/bin/kxmlkipicmd
 usr/share/kxmlkipicmd/
+usr/lib/*/qt5/plugins/kipiplugin_kxmlhelloworld.so
