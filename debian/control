@@ -6,14 +6,17 @@ Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.1.0~),
+               libjpeg-dev,
                libkf5config-dev (>= 5.1.0~),
                libkf5i18n-dev (>= 5.1.0~),
                libkf5kexiv2-dev (>= 5.0.0~),
                libkf5service-dev (>= 5.1.0~),
                libkf5xmlgui-dev (>= 5.1.0~),
+               libpng12-dev,
+               libtiff-dev,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.2.0~)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/libkipi.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkipi.git
