@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.12.1 hurd-i386 kfreebsd-amd64 kfreebsd-i386
+# SymbolsHelper-Confirmed: 16.04.0 amd64
 libKF5Kipi.so.31.0.0 libkf5kipi31.0.0 #MINVER#, libkf5kipi-bin (>= 16.04)
  _ZN4KIPI12ConfigWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.5.90
  _ZN4KIPI12ConfigWidget11qt_metacastEPKc@Base 4.5.90
@@ -150,7 +150,6 @@ libKF5Kipi.so.31.0.0 libkf5kipi31.0.0 #MINVER#, libkf5kipi-bin (>= 16.04)
  _ZN4KIPI9Interface10gotPreviewERK4QUrlRK6QImage@Base 15.12.0
  _ZN4KIPI9Interface10thumbnailsERK5QListI4QUrlEi@Base 15.12.0
  _ZN4KIPI9Interface11aboutToEditERK4QUrl6QFlagsINS_8EditHintEE@Base 15.12.0
- _ZN4KIPI9Interface11hostSettingERK7QString@Base 4.5.90
  _ZN4KIPI9Interface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.5.90
  _ZN4KIPI9Interface11qt_metacastEPKc@Base 4.5.90
  _ZN4KIPI9Interface12currentAlbumEv@Base 4.5.90
@@ -170,11 +169,12 @@ libKF5Kipi.so.31.0.0 libkf5kipi31.0.0 #MINVER#, libkf5kipi-bin (>= 16.04)
  _ZN4KIPI9Interface21progressStatusChangedERK7QStringS3_@Base 4.8.80
  _ZN4KIPI9Interface23supportedImageMimeTypesEb@Base 15.12.0
  _ZN4KIPI9Interface24progressThumbnailChangedERK7QStringRK7QPixmap@Base 4.8.80
+ _ZN4KIPI9Interface7previewERK4QUrl@Base 16.04.0
  _ZN4KIPI9Interface7previewERK4QUrli@Base 15.12.0
- _ZN4KIPI9Interface7previewERK4QUrlii@Base 15.12.0
  _ZN4KIPI9Interface7versionEv@Base 4.5.90
  _ZN4KIPI9Interface8addImageERK4QUrlR7QString@Base 15.12.0
  _ZN4KIPI9Interface8delImageERK4QUrl@Base 15.12.0
+ _ZN4KIPI9Interface8rawFilesEv@Base 16.04.0
  _ZN4KIPI9Interface9allAlbumsEv@Base 4.5.90
  _ZN4KIPI9Interface9saveImageERK4QUrlRK7QStringRK10QByteArrayjjbbPb@Base 15.12.0
  _ZN4KIPI9Interface9thumbnailERK4QUrli@Base 15.12.0
@@ -240,7 +240,6 @@ libKF5Kipi.so.31.0.0 libkf5kipi31.0.0 #MINVER#, libkf5kipi-bin (>= 16.04)
  _ZNK4KIPI9Interface14itemIsReservedERK4QUrlP7QString@Base 15.12.0
  _ZNK4KIPI9Interface16reserveForActionERK4QUrlP7QObjectRK7QString@Base 15.12.0
  _ZNK4KIPI9Interface17progressScheduledERK7QStringbb@Base 4.8.80
- _ZNK4KIPI9Interface18createRawProcessorEv@Base 15.12.0
  _ZNK4KIPI9Interface19createReadWriteLockERK4QUrl@Base 15.12.0
  _ZNK4KIPI9Interface23createMetadataProcessorEv@Base 15.12.0
  _ZNK4KIPI9Interface8featuresEv@Base 4.5.90
