@@ -1,6 +1,6 @@
-libkf5kipi (16.04.0-1~2.gbpfbc972) UNRELEASED; urgency=medium
+libkf5kipi (16.04.0-1~3.gbpc542a4) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @fbc97296ff15fc43b2a693cc02c179ad38f25323 **
+  ** SNAPSHOT build @c542a4fa12ba4af52aab124e00cbde1944208820 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @d0130a17c18e7976964d6c37f830807fa7e5af57 **
@@ -15,8 +15,9 @@ libkf5kipi (16.04.0-1~2.gbpfbc972) UNRELEASED; urgency=medium
   * Bump soversion, move plugin to the bin package
   * Update install files
   * Update symbols file
+  * Migrate to the default png version
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 17:27:21 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 22 May 2016 23:15:16 +0200
 
 libkf5kipi (15.12.1-1) experimental; urgency=medium
 
