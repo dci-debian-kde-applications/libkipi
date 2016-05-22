@@ -12,7 +12,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5kexiv2-dev (>= 5.0.0~),
                libkf5service-dev (>= 5.1.0~),
                libkf5xmlgui-dev (>= 5.1.0~),
-               libpng12-dev,
+               libpng-dev,
                libtiff-dev,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.2.0~)
