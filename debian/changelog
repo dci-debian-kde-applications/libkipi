@@ -1,4 +1,4 @@
-libkf5kipi (16.04.0-1) unstable; urgency=medium
+libkf5kipi (16.04.0-1) experimental; urgency=medium
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
