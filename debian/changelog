@@ -1,3 +1,11 @@
+libkf5kipi (16.04.0-2~1.gbp9a5073) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @9a507301c7db410371b165ddebdaa116b95811b6 **
+
+  * Rebuild for experimental
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 24 May 2016 13:15:21 +0200
+
 libkf5kipi (16.04.0-1) experimental; urgency=medium
 
   [ Automatic packaging ]
