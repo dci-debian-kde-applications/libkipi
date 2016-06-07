@@ -8,7 +8,6 @@ Build-Depends: cmake,
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev,
                pkg-kde-tools (>= 0.12),
-               libsoprano-dev
 Standards-Version: 3.9.8
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/applications/libkipi.git
