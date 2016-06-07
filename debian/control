@@ -78,18 +78,3 @@ Description: KDE Image Plugin Interface - cli tools
  .
  This package provides kxmlkipicmd which allows one to start kipi-plugins from
  the command line.
-
-Package: libkipi-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Breaks: kdegraphics-dbg (<< 4:4.6.80)
-Replaces: kdegraphics-dbg (<< 4:4.6.80)
-Depends: kde-runtime-dbg, libkipi11 (= ${binary:Version}), ${misc:Depends}
-Description: KDE Image Plugin Interface library -- debugging symbols
- Libkipi is a KDE library that provides a common interface for operations
- on images such as manipulation, organization, importing from and exporting
- to online services (and not only these), batch editing, etc.
- .
- This package contains the debugging files used to investigate problems with
- the kipi library.
