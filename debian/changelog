@@ -1,3 +1,11 @@
+libkf5kipi (16.08.0-1~1.gbp506c40) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @506c40e624bbbe10aaf1bda6704e29d35d347226 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:15:44 +0200
+
 libkf5kipi (16.04.0-2) unstable; urgency=medium
 
   * Release to unstable.
