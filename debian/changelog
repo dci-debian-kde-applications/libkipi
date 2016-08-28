@@ -1,3 +1,10 @@
+libkf5kipi (4:16.08.0-0r1) UNRELEASED; urgency=medium
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Aug 2016 11:38:06 +0200
+
 libkf5kipi (16.04.0-2) unstable; urgency=medium
 
   * Release to unstable.
