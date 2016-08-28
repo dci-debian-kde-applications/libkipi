@@ -1,0 +1,4 @@
+# empty for now
+libkf5kipi-bin: empty-binary-package
+# empty for now
+libkf5kipi-bin: package-contains-no-arch-dependent-files

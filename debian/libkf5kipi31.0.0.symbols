@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 16.04.0 amd64
-libKF5Kipi.so.31.0.0 libkf5kipi31.0.0 #MINVER#, libkf5kipi-bin (>= 16.04)
+libKF5Kipi.so.31.0.0 libkf5kipi31.0.0 #MINVER#
  _ZN4KIPI12ConfigWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.5.90
  _ZN4KIPI12ConfigWidget11qt_metacastEPKc@Base 4.5.90
  _ZN4KIPI12ConfigWidget16staticMetaObjectE@Base 4.5.90

@@ -6,6 +6,11 @@ libkf5kipi (4:16.08.0-0r1) UNRELEASED; urgency=medium
     build system.
   * Update install files.
   * Do not install the kxmlhelloworld plugin, since it is only a test plugin.
+  * Since libkf5kipi-bin is now empty, remove it from the shlib dependency
+    injected with symbols files: this is needed as binaries linked with
+    libkf5kipi have the libkf5kipi-bin dependency as well.
+    - remove no more needed breaks/replaces from it
+    - tweak its description
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Aug 2016 11:38:06 +0200
 
