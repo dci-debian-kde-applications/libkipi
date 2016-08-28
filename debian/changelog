@@ -5,6 +5,7 @@ libkf5kipi (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * Bump the cmake build dependency to >= 3.0.0, according to the upstream
     build system.
   * Update install files.
+  * Do not install the kxmlhelloworld plugin, since it is only a test plugin.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Aug 2016 11:38:06 +0200
 
