@@ -24,7 +24,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkipi.git
 Package: libkf5kipi-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5kipi31.0.0 (= ${binary:Version}), pkg-config, ${misc:Depends}
+Depends: libkf5kipi31.0.0 (= ${binary:Version}), ${misc:Depends}
 Conflicts: libkipi0-dev, libkipi5-dev, libkipi6-dev, libkipi7-dev
 Description: KDE Image Plugin Interface library -- development files
  Libkipi is a KDE library that provides a common interface for operations

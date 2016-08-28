@@ -13,6 +13,7 @@ libkf5kipi (4:16.08.0-0r1) UNRELEASED; urgency=medium
     - tweak its description
   * Drop the kde-runtime exclusion from shlibs, since it was for kdelibs 4.x
     libraries.
+  * Drop the extra pkg-config dependency in libkf5kipi-dev.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Aug 2016 11:38:06 +0200
 
