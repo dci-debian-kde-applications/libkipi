@@ -11,6 +11,8 @@ libkf5kipi (4:16.08.0-0r1) UNRELEASED; urgency=medium
     libkf5kipi have the libkf5kipi-bin dependency as well.
     - remove no more needed breaks/replaces from it
     - tweak its description
+  * Drop the kde-runtime exclusion from shlibs, since it was for kdelibs 4.x
+    libraries.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Aug 2016 11:38:06 +0200
 
