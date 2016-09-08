@@ -1,3 +1,11 @@
+libkf5kipi (4:16.08.1-1~1.gbpeb6a7d) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @eb6a7d2082b041bec6a3c425cf3beeda7803fe9f **
+
+  * UNRELEASED
+
+ -- Pino Toscano <jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 00:15:45 +0200
+
 libkf5kipi (4:16.08.0-1) unstable; urgency=medium
 
   * Team upload.
