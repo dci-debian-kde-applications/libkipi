@@ -1,11 +1,8 @@
-libkf5kipi (4:16.08.2-1~1.gbp25090b) UNRELEASED; urgency=medium
+libkf5kipi (4:16.08.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @25090bcf6d6ddad894e4f33b04d53946017bbf64 **
+  * New upstream release (16.08.2)
 
-  * UNRELEASED
-  * UNRELEASED
-
- -- Pino Toscano <jenkins@gnuservers.com.ar>  Fri, 14 Oct 2016 00:15:29 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 00:15:03 +0200
 
 libkf5kipi (4:16.08.0-1) unstable; urgency=medium
 
