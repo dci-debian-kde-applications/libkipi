@@ -24,7 +24,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkipi.git
 Package: libkf5kipi-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5kipi31.0.0 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5kipi32.0.0 (= ${binary:Version}), pkg-config, ${misc:Depends}
 Conflicts: libkipi0-dev, libkipi5-dev, libkipi6-dev, libkipi7-dev
 Description: KDE Image Plugin Interface library -- development files
  Libkipi is a KDE library that provides a common interface for operations
@@ -37,11 +37,13 @@ Description: KDE Image Plugin Interface library -- development files
  This package provides the development files for using the kipi library,
  and documentation for it (in the header files).
 
-Package: libkf5kipi31.0.0
+Package: libkf5kipi32.0.0
 Architecture: any
 Depends: libkf5kipi-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: libkf5kipi30.0.0, libkf5kipi31.0.0
+Replaces: libkf5kipi30.0.0, libkf5kipi31.0.0
 Description: KDE Image Plugin Interface library
  Libkipi is a KDE library that provides a common interface for operations
  on images such as manipulation, organization, importing from and exporting
@@ -75,16 +77,3 @@ Description: KDE Image Plugin Interface library -- data files
  kphotoalbum, and ksnapshot.
  .
  This package contains the data files of the kipi library.
-
-Package: libkf5kipi-bin
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: KDE Image Plugin Interface - runtime tools
- Libkipi is a KDE library that provides a common interface for operations
- on images such as manipulation, organization, importing from and exporting
- to online services (and not only these), batch editing, etc.
- .
- These services are used in graphics applications such as gwenview, digiKam,
- kphotoalbum, and ksnapshot.
- .
- This package provides runtime utilities.
