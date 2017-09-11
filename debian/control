@@ -15,11 +15,35 @@ Build-Depends: cmake (>= 3.0.0),
                libpng-dev,
                libtiff-dev,
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev (>= 5.2.0~)
+               qtbase5-dev (>= 5.2.0~),
 Standards-Version: 4.1.0
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/libkipi.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkipi.git
+
+Package: libkf5kipi-data
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: kdegraphics-libs-data (<< 4:4.6.80),
+          libkdcraw5,
+          libkipi-data,
+          libkipi0,
+          libkipi5,
+          libkipi6,
+Breaks: kdegraphics-libs-data (<< 4:4.6.80),
+        libkipi-data,
+        libkipi0,
+        libkipi5,
+        libkipi6,
+Description: KDE Image Plugin Interface library -- data files
+ Libkipi is a KDE library that provides a common interface for operations
+ on images such as manipulation, organization, importing from and exporting
+ to online services (and not only these), batch editing, etc.
+ .
+ These services are used in graphics applications such as gwenview, digiKam,
+ kphotoalbum, and ksnapshot.
+ .
+ This package contains the data files of the kipi library.
 
 Package: libkf5kipi-dev
 Section: libdevel
@@ -41,7 +65,7 @@ Package: libkf5kipi32.0.0
 Architecture: any
 Depends: libkf5kipi-data (>= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Breaks: libkf5kipi30.0.0, libkf5kipi31.0.0
 Replaces: libkf5kipi30.0.0, libkf5kipi31.0.0
 Description: KDE Image Plugin Interface library
@@ -53,27 +77,3 @@ Description: KDE Image Plugin Interface library
  kphotoalbum, and ksnapshot.
  .
  This package provides the kipi library.
-
-Package: libkf5kipi-data
-Architecture: all
-Depends: ${misc:Depends}
-Replaces: kdegraphics-libs-data (<< 4:4.6.80),
-          libkdcraw5,
-          libkipi-data,
-          libkipi0,
-          libkipi5,
-          libkipi6
-Breaks: kdegraphics-libs-data (<< 4:4.6.80),
-        libkipi-data,
-        libkipi0,
-        libkipi5,
-        libkipi6
-Description: KDE Image Plugin Interface library -- data files
- Libkipi is a KDE library that provides a common interface for operations
- on images such as manipulation, organization, importing from and exporting
- to online services (and not only these), batch editing, etc.
- .
- These services are used in graphics applications such as gwenview, digiKam,
- kphotoalbum, and ksnapshot.
- .
- This package contains the data files of the kipi library.
