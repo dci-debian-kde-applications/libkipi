@@ -1,4 +1,0 @@
-# test plugin
-./usr/lib/*/qt5/plugins/kipiplugin_kxmlhelloworld.so
-./usr/share/kservices5/kipiplugin_kxmlhelloworld.desktop
-./usr/share/kxmlgui5/kipi/kipiplugin_kxmlhelloworldui.rc
