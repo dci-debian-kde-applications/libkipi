@@ -16,6 +16,9 @@ libkf5kipi (4:17.08.3-0r1) UNRELEASED; urgency=medium
     - remove the now unused build dependencies: libkf5kexiv2-dev, libjpeg-dev,
       libpng-dev, and libtiff-dev
 
+  [ Helmut Grohne ]
+  * Mark libkf5kipi-data Multi-Arch: foreign. (Closes: #880459)
+
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 Dec 2017 22:02:13 +0100
 
 libkf5kipi (4:17.08.1-1) experimental; urgency=medium

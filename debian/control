@@ -19,6 +19,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkipi.git
 
 Package: libkf5kipi-data
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Replaces: kdegraphics-libs-data (<< 4:4.6.80),
           libkdcraw5,
